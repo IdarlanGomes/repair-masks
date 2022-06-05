@@ -1,6 +1,8 @@
 body{
     background-color: rgba(0, 0, 0, 0.481);
     color: rgba(176, 0, 0, 0.944);
+    font: bolder;
+    font-weight: bolder;
       
     
 }
@@ -23,6 +25,6 @@ head{
 textarea{
     margin-top: 15px;
     border-radius: 5px;
-    background-color: bisque;
+    background-color: rgb(250, 235, 217);
     box-shadow: black 4px 4px;
 }
