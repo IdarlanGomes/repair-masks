@@ -1,0 +1,28 @@
+body{
+    background-color: rgba(0, 0, 0, 0.481);
+    color: rgba(176, 0, 0, 0.944);
+      
+    
+}
+
+head{
+    
+}
+
+.button{
+    background-color: green;
+    border-radius: 15px;
+    padding: 2px 10px 2px 10px;
+    align-items: center;
+    align-items: center;      
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 17%;
+}
+
+textarea{
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color: bisque;
+    box-shadow: black 4px 4px;
+}
