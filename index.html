@@ -12,7 +12,7 @@
 <div> CÓDIGO 42836 - CONECTOR RJ45 DANIFICADO
     <div>
         <!-- The text field -->
-        <div></div><textarea name="observação" id="myInput" cols="35" rows="5">CONECTOR OXIDADO</textarea>
+        <textarea name="observação" id="myInput" cols="35" rows="5">CONECTOR OXIDADO</textarea>
     
         <!-- The button used to copy the text -->
         <button onclick="myFunction()">Copiar</button>
@@ -21,7 +21,7 @@
 
     <div>
         <!-- The text field -->
-        <div></div><textarea name="observação" id="myInput" cols="35" rows="5">CONECTOR QUEBRADO</textarea>
+        <textarea name="observação" id="myInput" cols="35" rows="5">CONECTOR QUEBRADO</textarea>
     
         <!-- The button used to copy the text -->
         <button onclick="myFunction()">Copiar</button>
@@ -503,21 +503,6 @@
     </div>
     
     </div>
-    <script>
-        function myFunction() {
-          /* Get the text field */
-          var copyText = document.getElementById("myInput");
-        
-          /* Select the text field */
-          copyText.select();
-          copyText.setSelectionRange(0, 99999); /* For mobile devices */
-        
-          /* Copy the text inside the text field */
-          navigator.clipboard.writeText(copyText.value);
-          
-          /* Alert the copied text */
-          alert("Texto copiado!");
-        }
-        </script>
+    <script src="script.js"></script>
 </body>
 </html>
